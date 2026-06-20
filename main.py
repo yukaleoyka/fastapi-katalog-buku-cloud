@@ -53,7 +53,7 @@ data_buku: List[dict] = [
 @app.get("/")
 def home():
     return {
-        "message": f"{APP_NAME} aktif",
+        "message": f"{APP_NAME} aktif - versi auto-deploy",
         "environment": APP_ENV,
         "docs": "/docs",
         "health": "/health",
